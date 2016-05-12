@@ -135,7 +135,7 @@
               if ( exposeChart ) {
                 $scope.chart = chartObj;
               }
-              chartObj.resize();
+              chartObj.update();
             }
 
           },
